@@ -8,4 +8,4 @@ services:
       - "8077:8077"
     volumes:
       # Bind app.py so we can iterate without rebuilding the image.
-      - ./app.py:/app/app.py:ro
+      #- ./app.py:/app/app.py:ro
